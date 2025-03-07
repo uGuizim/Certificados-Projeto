@@ -78,6 +78,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
+    "https://certificados-projeto-c96sl6kwh-uguizims-projects.vercel.app"
     "https://certificados-projeto.vercel.app",
     "http://localhost:3000",  # Permite o React acessar a API
 ]  
