@@ -1,1 +1,1 @@
-web: gunicorn backend.backend.wsgi:application --chdir backend
+gunicorn backend.wsgi:application --chdir Certificados-Projeto/backend
